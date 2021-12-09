@@ -47,19 +47,4 @@ window.onload = () =>{
                 main.appendChild(bookEl);
             });  
             }; 
-
-
-        function filterCategory(){
-            const list = document.getElementById('list');
-
-            const li = list.querySelectorAll('li');
-    
-            li.forEach(item =>{
-                item.addEventListener("click", e =>{
-                    console.log('fuck');
-                })
-            }) 
-        }
-
-        filterCategory();
 }
